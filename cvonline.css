@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+body {
+    background-color: #1d2733;
+    padding-top: 1%;
+}
+
+.articulos {
+    background-color: rgba(0, 0, 0, 0.225);
+    padding: 1%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.articulos p {
+    color: #bbc8d8;
+    font-family: 'Lato';
+    font-size: 16px;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.lateral-der {
+    display: inline-block;
+    text-align: left;
+    width: 68%;
+    min-width: 600px;
+    margin: 1%;
+    padding: 25px;
+    vertical-align: top;
+    margin-left: 300px;
+}
+
+.navegador {
+    position: fixed;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.225);
+    margin: 0px;
+    margin-left: 20px;
+    text-align: left;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 0.1%;
+    vertical-align: top;
+}
+
+.navegador ul {
+    padding: 0px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.navegador__link,
+.navegador__link a {
+    list-style: none;
+    color: #82a7d3;
+    background-color: #1d2733;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    margin: 0%;
+    border-radius: 3px;
+}
+
+.navegador__link:hover,
+.navegador__link a:hover {
+    list-style: none;
+    background-color: slategrey;
+    border-radius: 3px;
+    color: #fff;
+    margin: 0%;
+}
+
+.navegador__fotoperfil {
+    display: block;
+    width: 100%;
+    max-width: 210px;
+    height: 42%;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Cormorant Infant';
+    font-size: 66px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subtitle {
+    color: #bbc8d8;
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.subtitle__descripcion {
+    color: #bbc8d8;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 30px;
+}
+
+.subtitle__contact {
+    color: #bbc8d8;
+    font-style: italic;
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.list {
+    color: #bbc8d8;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+.list p {
+    margin: 0;
+}
+
+ol .lista__portfolio {
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+.imagenes__portfolio {
+    width: 20%;
+    height: 20%;
+    min-height: 5%;
+    min-width: 5%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.26);
+    margin: 5px;
+    padding: 12px;
+}
+
+.imagenes__redes {
+    display: inline;
+    text-align: center;
+    width: 7%;
+    height: 7%;
+    min-width: 7%;
+    min-height: 7%;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.imagenes__contacto {
+    width: 5%;
+    height: 5%;
+    min-width: 2%;
+    min-height: 2%;
+    margin: 5px;
+    padding: 0px;
+}
